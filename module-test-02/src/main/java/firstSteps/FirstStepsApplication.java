@@ -33,6 +33,7 @@ public class FirstStepsApplication extends Application {
 
         // Defines only one route
         router.attach("/hello", HelloWorldResource.class);
+        router.attach("/test", TestResource.class);
 
         return router;
     }

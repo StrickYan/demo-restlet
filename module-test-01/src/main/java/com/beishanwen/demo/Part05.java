@@ -27,4 +27,8 @@ public class Part05 extends ServerResource {
                 + getReference().getBaseRef() + '\n' + "Remaining part: "
                 + getReference().getRemainingPart();
     }
+
+    public String sayTest() {
+        return "say test";
+    }
 }

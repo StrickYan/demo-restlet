@@ -11,6 +11,14 @@
 
     <artifactId>module-test-02</artifactId>
 
+    <dependencies>
+        <dependency>
+            <artifactId>module-test-01</artifactId>
+            <groupId>com.beishanwen.demo</groupId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
