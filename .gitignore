@@ -1,0 +1,28 @@
+#ignore these files
+
+# svn files
+*.svn
+
+# compiled files
+*.class
+
+# package files
+*.jar
+*.war
+*.ear
+
+# maven generated target folders
+*target
+
+# eclipse files
+*.project
+*.classpath
+*.settings
+*.metadata
+
+# idea files
+*.idea
+*.iml
+
+# mac files
+*.DS_Store
